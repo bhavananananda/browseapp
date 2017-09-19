@@ -1,4 +1,5 @@
 # BrowseEverything
+# https://github.com/samvera/browse-everything
 
 This is a rails application that uses BrowseEverything gem which allows access to user files from cloud storage.
 It uses OAUTH2 to authenticate with Dropbox in this example application.
