@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Browseapp</title>
+
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+  </head>
+
+  <body>
+    <%= yield %>
+    <h1> Browseapp </h1>
+    <button type="button" data-toggle="browse-everything" data-route="<%=browse_everything_engine.root_path%>"
+            data-target="#myForm" class="btn btn-large btn-success" id="browse">Browse!</button>
+
+  </body>
+</html>
